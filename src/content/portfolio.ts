@@ -80,7 +80,7 @@ export const portfolio: {
   email: "nathanreyna2020@gmail.com",
   links: {
     linkedin: "https://www.linkedin.com/in/nathan-reyna-17303b284",
-    github: "https://github.com/your-handle", // TODO: add your GitHub URL
+    github: "https://github.com/Naskyro",
   },
 
   // ------------------------------ About -------------------------------------
