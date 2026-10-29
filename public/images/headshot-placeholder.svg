@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480">
+  <rect width="480" height="480" fill="#111a30"/>
+  <!-- corner ticks, blueprint style -->
+  <g stroke="#233252" stroke-width="3">
+    <path d="M20 20h30M20 20v30M460 20h-30M460 20v30M20 460h30M20 460v-30M460 460h-30M460 460v-30"/>
+  </g>
+  <!-- person silhouette -->
+  <circle cx="240" cy="190" r="80" fill="#233252"/>
+  <path d="M90 480c0-90 67-150 150-150s150 60 150 150" fill="#233252"/>
+  <!-- hint text -->
+  <text x="240" y="440" text-anchor="middle" font-family="monospace" font-size="20" fill="#22d3ee">// add your photo</text>
+</svg>

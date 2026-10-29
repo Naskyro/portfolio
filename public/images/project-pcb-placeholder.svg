@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <!-- PCB board, blue theme -->
+  <rect width="800" height="400" fill="#0a0f1e"/>
+  <rect x="10" y="10" width="780" height="380" rx="12" fill="#0f1e3a" stroke="#233252" stroke-width="4"/>
+
+  <!-- copper/cyan traces -->
+  <g stroke="#22d3ee" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.85">
+    <path d="M60 340 H200 L260 280 V200"/>
+    <path d="M120 340 H240 L300 280 V230"/>
+    <path d="M740 60 H560 L500 120 V200"/>
+    <path d="M680 340 H560 L520 300 V260"/>
+    <path d="M60 60 H180 L240 120 V160"/>
+    <path d="M740 340 H640 L580 280"/>
+  </g>
+
+  <!-- pads / vias -->
+  <g fill="#22d3ee">
+    <circle cx="60" cy="340" r="10"/><circle cx="120" cy="340" r="10"/>
+    <circle cx="740" cy="60" r="10"/><circle cx="60" cy="60" r="10"/>
+    <circle cx="740" cy="340" r="10"/><circle cx="680" cy="340" r="10"/>
+    <circle cx="260" cy="200" r="8"/><circle cx="300" cy="230" r="8"/>
+    <circle cx="500" cy="200" r="8"/><circle cx="520" cy="260" r="8"/>
+    <circle cx="240" cy="160" r="8"/><circle cx="580" cy="280" r="8"/>
+  </g>
+
+  <!-- central IC -->
+  <rect x="330" y="150" width="140" height="100" rx="6" fill="#111a30" stroke="#38bdf8" stroke-width="3"/>
+  <g stroke="#22d3ee" stroke-width="4">
+    <line x1="330" y1="170" x2="305" y2="170"/><line x1="330" y1="190" x2="305" y2="190"/>
+    <line x1="330" y1="210" x2="305" y2="210"/><line x1="330" y1="230" x2="305" y2="230"/>
+    <line x1="470" y1="170" x2="495" y2="170"/><line x1="470" y1="190" x2="495" y2="190"/>
+    <line x1="470" y1="210" x2="495" y2="210"/><line x1="470" y1="230" x2="495" y2="230"/>
+  </g>
+  <text x="400" y="208" text-anchor="middle" font-family="monospace" font-size="20" fill="#e2e8f0">U1</text>
+
+  <!-- caption -->
+  <text x="400" y="375" text-anchor="middle" font-family="monospace" font-size="18" fill="#8fa3c0">// add a project screenshot</text>
+</svg>
